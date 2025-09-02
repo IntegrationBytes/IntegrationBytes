@@ -8,8 +8,8 @@ I build dependable AI that ships. Python, Java, and JavaScript end‑to‑end fr
 - Maastricht, NL
 - Website: https://vincentviitala.com
 - GitHub: https://github.com/IntegrationBytes
-- LinkedIn: https://linkedin.com/in/vincentviitala
-- Email: contact@vincentviitala.com
+- LinkedIn: https://www.linkedin.com/in/vincent-viitala-225737185/
+- Email: viitala.vincent@gmail.com
 
 ## What I Do
 - Growth AI lead‑gen engines
