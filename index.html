@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Resume - [Your Name]</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <canvas id="bg-aurora" aria-hidden="true"></canvas>
+    
+    <div class="container">
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image" id="avatar">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">Vincent Viitala</h1>
+                    <p class="title">AI Engineer & Full‑Stack Developer</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Maastricht, NL</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@vincentviitala.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/vincentviitala" target="_blank">github.com/vincentviitala</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <a href="https://vincentviitala.com" target="_blank">vincentviitala.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/vincentviitala" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="section" id="about">
+                <h2><i class="fas fa-user"></i> About</h2>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:start;">
+                    <div>
+                        <p class="summary">
+                            I build dependable AI that ships. Python, Java, and JavaScript end‑to‑end from idea to production. Ex‑founder (7‑person fintech, exited). BSc Data Science & AI (Maastricht). Hands‑on, relentless, and measured by outcomes.
+                        </p>
+                    </div>
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;">
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h3>What I Do</h3>
+                            </div>
+                            <ul class="experience-details">
+                                <li>Growth AI lead‑gen engines</li>
+                                <li>Support automation with RAG + routing</li>
+                                <li>Ops copilots for one high‑value workflow</li>
+                                <li>Production‑grade ML & data systems</li>
+                            </ul>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-header">
+                                <h3>My Goals</h3>
+                            </div>
+                            <ul class="experience-details">
+                                <li>Ship measurable outcomes fast</li>
+                                <li>Build durable, legible systems</li>
+                                <li>Collaborate with ambitious teams</li>
+                                <li>Keep learning, keep publishing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="tech">
+                <h2><i class="fas fa-code"></i> Tech Stack</h2>
+                <div class="skills-grid">
+                    <details class="skill-category" open>
+                        <summary><h3>Languages</h3></summary>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </details>
+                    <details class="skill-category" open>
+                        <summary><h3>Frameworks & Libraries</h3></summary>
+                        <div class="skill-tags">
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Django</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">LangChain</span>
+                        </div>
+                    </details>
+                    <details class="skill-category" open>
+                        <summary><h3>Tools & Platforms</h3></summary>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                            <span class="skill-tag">Redis</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Senior Software Developer</h3>
+                        <span class="company">[Company Name]</span>
+                        <span class="duration">[Start Date] - [End Date]</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Led development of [project/feature] resulting in [X]% improvement</li>
+                        <li>Collaborated with cross-functional teams to deliver [achievement]</li>
+                        <li>Mentored junior developers and conducted code reviews</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3>Software Developer</h3>
+                        <span class="company">[Previous Company]</span>
+                        <span class="duration">[Start Date] - [End Date]</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Developed and maintained [type of applications]</li>
+                        <li>Implemented [specific technology/feature]</li>
+                        <li>Participated in agile development processes</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section" id="projects">
+                <h2><i class="fas fa-project-diagram"></i> Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Growth AI – Lead Gen Engine</h3>
+                        <p class="project-description">
+                            Identify ICPs, enrich accounts, and generate personalized first touches. Deployed as a production pipeline with measurable ROI.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vincentviitala" target="_blank" class="project-link"><i class="fab fa-github"></i> Repos</a>
+                            <a href="https://vincentviitala.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Case Study</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Ops Copilots</h3>
+                        <p class="project-description">
+                            Secure internal GPT tools focused on one high‑value workflow with strong guardrails and observability.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vincentviitala" target="_blank" class="project-link"><i class="fab fa-github"></i> Repos</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="education">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="education-item">
+                    <h3>BSc Data Science & AI</h3>
+                    <p class="institution">Maastricht University</p>
+                    <p class="education-dates">—</p>
+                    <p class="education-details">Statistics, ML, software engineering, systems.</p>
+                </div>
+            </section>
+
+            <section class="section" id="stats">
+                <h2><i class="fas fa-chart-line"></i> GitHub Stats</h2>
+                <div class="github-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" id="repos-count">-</div>
+                        <div class="stat-label">Public Repos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="followers-count">-</div>
+                        <div class="stat-label">Followers</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="following-count">-</div>
+                        <div class="stat-label">Following</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="stars-count">-</div>
+                        <div class="stat-label">Stars Earned</div>
+                    </div>
+                </div>
+                <div class="github-chart">
+                    <img id="github-contribution-chart" src="" alt="GitHub Contribution Chart" style="max-width: 100%; height: auto;">
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 [Your Name]. Built with HTML, CSS & JavaScript.</p>
+            <div class="social-links">
+                <a href="https://github.com/[your-username]" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/[your-profile]" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:[your.email@example.com]">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
